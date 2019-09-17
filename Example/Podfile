@@ -4,10 +4,11 @@ platform :ios, '8.0'
 
 target 'CTMediatoKit_Example' do
   pod 'CTMediatoKit', :path => '../'
+  pod 'CTMediator'
 
-  target 'CTMediatoKit_Tests' do
-    inherit! :search_paths
-
-    
-  end
+#  target 'CTMediatoKit_Tests' do
+#    inherit! :search_paths
+#
+#    
+#  end
 end

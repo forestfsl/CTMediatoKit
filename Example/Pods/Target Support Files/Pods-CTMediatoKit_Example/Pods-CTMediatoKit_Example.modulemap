@@ -1,0 +1,6 @@
+framework module Pods_CTMediatoKit_Example {
+  umbrella header "Pods-CTMediatoKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,24 @@
+PODS:
+  - CTMediatoKit (0.0.1):
+    - CTMediator
+  - CTMediator (25)
+
+DEPENDENCIES:
+  - CTMediatoKit (from `../`)
+  - CTMediator
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CTMediator
+
+EXTERNAL SOURCES:
+  CTMediatoKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CTMediatoKit: 2b5b8b8ff98fdc1f5a54f4dfe505fa736c8436fc
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+
+PODFILE CHECKSUM: 647649159ee7be697e6110766664548d187db651
+
+COCOAPODS: 1.7.5
