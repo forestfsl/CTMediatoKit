@@ -1,5 +1,5 @@
 PODS:
-  - CTMediatoKit (0.0.1):
+  - CTMediatoKit (0.0.3):
     - CTMediator
   - CTMediator (25)
 
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CTMediatoKit: 2b5b8b8ff98fdc1f5a54f4dfe505fa736c8436fc
+  CTMediatoKit: fbd1d9a1eefb32d602bcc3da3caf8dea45f054f1
   CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
 
 PODFILE CHECKSUM: 647649159ee7be697e6110766664548d187db651
