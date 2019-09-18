@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		050090F7055BDDCCF069E14E7B363E04 /* CTMediaAFNetworkReachbilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BEEF9D3CE9515748F5EC73886AD12B4 /* CTMediaAFNetworkReachbilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		075B8F062332190000E8DEB8 /* CTMediator+ViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 075B8F02233218FF00E8DEB8 /* CTMediator+ViewManager.h */; };
+		075B8F072332190000E8DEB8 /* CTMediator+AppStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 075B8F03233218FF00E8DEB8 /* CTMediator+AppStore.m */; };
+		075B8F082332190000E8DEB8 /* CTMediator+AppStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 075B8F04233218FF00E8DEB8 /* CTMediator+AppStore.h */; };
+		075B8F092332190000E8DEB8 /* CTMediator+ViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 075B8F052332190000E8DEB8 /* CTMediator+ViewManager.m */; };
+		075B8F0C2332193B00E8DEB8 /* CTMediatorHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 075B8F0B2332193B00E8DEB8 /* CTMediatorHeader.h */; };
 		0B7BBF8AB7D712A7C9CF597B3FB0FD8B /* CTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B846401D3B85E72D1CE2F220816AD688 /* CTMediator.framework */; };
 		14C9EB4BCDA6CC3EB174CE6141FC7347 /* CTMediator+SegmentViewHud.m in Sources */ = {isa = PBXBuildFile; fileRef = C3638D8D44E84C79476B68ADEAA8B57D /* CTMediator+SegmentViewHud.m */; };
 		194D6D4AD90CEABF4A11BD1A2164F24E /* CTMediator+RequestAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = A4FEB33D3978C64B330DECFA09C8DF59 /* CTMediator+RequestAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -56,24 +61,29 @@
 
 /* Begin PBXFileReference section */
 		01092A849E484780EB0BC3DC683C4361 /* CTMediator+SegmentViewHud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+SegmentViewHud.h"; path = "CTMediatoKit/Classes/CTMediator+SegmentViewHud.h"; sourceTree = "<group>"; };
-		0CA443950DA8B33BF47E97E6BDD3B82C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		075B8F02233218FF00E8DEB8 /* CTMediator+ViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CTMediator+ViewManager.h"; path = "CTMediatoKit/Classes/CTMediator+ViewManager.h"; sourceTree = "<group>"; };
+		075B8F03233218FF00E8DEB8 /* CTMediator+AppStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+AppStore.m"; path = "CTMediatoKit/Classes/CTMediator+AppStore.m"; sourceTree = "<group>"; };
+		075B8F04233218FF00E8DEB8 /* CTMediator+AppStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CTMediator+AppStore.h"; path = "CTMediatoKit/Classes/CTMediator+AppStore.h"; sourceTree = "<group>"; };
+		075B8F052332190000E8DEB8 /* CTMediator+ViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+ViewManager.m"; path = "CTMediatoKit/Classes/CTMediator+ViewManager.m"; sourceTree = "<group>"; };
+		075B8F0B2332193B00E8DEB8 /* CTMediatorHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTMediatorHeader.h; path = CTMediatoKit/Classes/CTMediatorHeader.h; sourceTree = "<group>"; };
+		0CA443950DA8B33BF47E97E6BDD3B82C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		17ACD14CA0A8EE59A4E2891AB5D041CF /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
 		1C311737B56DB89950BE007280844FEA /* CTMediatoKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CTMediatoKit-Info.plist"; sourceTree = "<group>"; };
 		1E1F9D3F5598638DAEC0652E749F33E2 /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
 		1F792FBCCCC3B7E232CD683A8A8F0801 /* Pods-CTMediatoKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CTMediatoKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		223543464E4BB956B334918E5C6E2AEF /* Pods-CTMediatoKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CTMediatoKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2D5FF4FCBF1AAAC75E75F29EE24AD10D /* CTMediatoKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CTMediatoKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2D5FF4FCBF1AAAC75E75F29EE24AD10D /* CTMediatoKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CTMediatoKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		35A0F593040C422E52BDE63AD78AEEDC /* Pods-CTMediatoKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CTMediatoKit_Example-dummy.m"; sourceTree = "<group>"; };
 		3737532EEA823B7364EFB1FAB1E041C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		392167D10BB24FBA5B2C7CADF531ADF4 /* Pods-CTMediatoKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CTMediatoKit_Example-Info.plist"; sourceTree = "<group>"; };
-		3975EF007ECDF2C5604C22F2F598B733 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3975EF007ECDF2C5604C22F2F598B733 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3FABF6B72795C12448F5085E17A73DDC /* CTMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.xcconfig; sourceTree = "<group>"; };
 		4E9A08BB69CFD3550765912BD4DAB9FF /* CTMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-umbrella.h"; sourceTree = "<group>"; };
 		584E38CA4A135E3AE9933F81A243895F /* Pods-CTMediatoKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CTMediatoKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		5C3B99128263C4A8C306D1FB2DFBFD14 /* CTMediator+Config.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+Config.m"; path = "CTMediatoKit/Classes/CTMediator+Config.m"; sourceTree = "<group>"; };
 		626C955189ACFDECBFC52BCF6F3BD52D /* CTMediatoKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTMediatoKit.modulemap; sourceTree = "<group>"; };
-		668848BBDE132F00FC8E7608057F5341 /* CTMediatoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTMediatoKit.framework; path = CTMediatoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTMediator.framework; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		668848BBDE132F00FC8E7608057F5341 /* CTMediatoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediatoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B907AA5041E721C82BCA4B7874B7BAB /* CTMediatoKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediatoKit-prefix.pch"; sourceTree = "<group>"; };
 		75A1AAA05BB62FD602D007D5E54C3855 /* CTMediatoKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediatoKit-dummy.m"; sourceTree = "<group>"; };
 		7BEEF9D3CE9515748F5EC73886AD12B4 /* CTMediaAFNetworkReachbilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediaAFNetworkReachbilityManager.h; path = CTMediatoKit/Classes/CTMediaAFNetworkReachbilityManager.h; sourceTree = "<group>"; };
@@ -82,7 +92,7 @@
 		85629E548930354F559F8733C7A5B3BF /* Pods-CTMediatoKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CTMediatoKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		8F355E494711B544068ABA90766AE54C /* CTMediator+RequestAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+RequestAPI.m"; path = "CTMediatoKit/Classes/CTMediator+RequestAPI.m"; sourceTree = "<group>"; };
 		9D05C065D156496D746108B12B0A59A9 /* CTMediaAFNetworkReachbilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediaAFNetworkReachbilityManager.m; path = CTMediatoKit/Classes/CTMediaAFNetworkReachbilityManager.m; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EE265181E268345F2378FFE48BB1C49 /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
 		A4FEB33D3978C64B330DECFA09C8DF59 /* CTMediator+RequestAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+RequestAPI.h"; path = "CTMediatoKit/Classes/CTMediator+RequestAPI.h"; sourceTree = "<group>"; };
 		B846401D3B85E72D1CE2F220816AD688 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,7 +103,7 @@
 		DE88E54F6D34560CBC964C20F8A4AC62 /* Pods-CTMediatoKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CTMediatoKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DF9C602FCABD8A5DB21576923201560A /* Pods-CTMediatoKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CTMediatoKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E580DBD502754A5021C2B56BB3EA6DB1 /* CTMediatoKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediatoKit-umbrella.h"; sourceTree = "<group>"; };
-		F44BBAD78111571DED2D1F343A6EB2D5 /* Pods_CTMediatoKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CTMediatoKit_Example.framework; path = "Pods-CTMediatoKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44BBAD78111571DED2D1F343A6EB2D5 /* Pods_CTMediatoKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CTMediatoKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8BCF087D213F4837864656666BA3865 /* CTMediatoKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediatoKit.xcconfig; sourceTree = "<group>"; };
 		FB2135135B76DA70672C2B3381645BB6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -143,7 +153,6 @@
 				9EE265181E268345F2378FFE48BB1C49 /* CTMediator.m */,
 				E14D928A63EDE2B333128F78CA33B7DC /* Support Files */,
 			);
-			name = CTMediator;
 			path = CTMediator;
 			sourceTree = "<group>";
 		};
@@ -244,6 +253,11 @@
 		E1E3B1C5A854C83D488AC3917D355F58 /* CTMediatoKit */ = {
 			isa = PBXGroup;
 			children = (
+				075B8F0B2332193B00E8DEB8 /* CTMediatorHeader.h */,
+				075B8F04233218FF00E8DEB8 /* CTMediator+AppStore.h */,
+				075B8F03233218FF00E8DEB8 /* CTMediator+AppStore.m */,
+				075B8F02233218FF00E8DEB8 /* CTMediator+ViewManager.h */,
+				075B8F052332190000E8DEB8 /* CTMediator+ViewManager.m */,
 				7BEEF9D3CE9515748F5EC73886AD12B4 /* CTMediaAFNetworkReachbilityManager.h */,
 				9D05C065D156496D746108B12B0A59A9 /* CTMediaAFNetworkReachbilityManager.m */,
 				8102A59763F687F183E4FC32C19B84B1 /* CTMediator+Config.h */,
@@ -294,7 +308,10 @@
 			files = (
 				050090F7055BDDCCF069E14E7B363E04 /* CTMediaAFNetworkReachbilityManager.h in Headers */,
 				B5B3FAB22B9B4023F2592B28052D3100 /* CTMediatoKit-umbrella.h in Headers */,
+				075B8F082332190000E8DEB8 /* CTMediator+AppStore.h in Headers */,
 				E4D3FA28EB08CA59A8C8DFFA8FAA348F /* CTMediator+Config.h in Headers */,
+				075B8F062332190000E8DEB8 /* CTMediator+ViewManager.h in Headers */,
+				075B8F0C2332193B00E8DEB8 /* CTMediatorHeader.h in Headers */,
 				194D6D4AD90CEABF4A11BD1A2164F24E /* CTMediator+RequestAPI.h in Headers */,
 				2BFC132F6B9E0AE1C04F06807EDDE51C /* CTMediator+SegmentViewHud.h in Headers */,
 			);
@@ -443,8 +460,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3792CEDD38DEBD0CF787D7E6AF3FD1D2 /* CTMediaAFNetworkReachbilityManager.m in Sources */,
+				075B8F072332190000E8DEB8 /* CTMediator+AppStore.m in Sources */,
 				832A385B6AC2D438FBD285CD0596EEFD /* CTMediatoKit-dummy.m in Sources */,
 				3367D06C492C054801656AE975DB80EF /* CTMediator+Config.m in Sources */,
+				075B8F092332190000E8DEB8 /* CTMediator+ViewManager.m in Sources */,
 				C9CDA53415D30405559B4EC7262886D7 /* CTMediator+RequestAPI.m in Sources */,
 				14C9EB4BCDA6CC3EB174CE6141FC7347 /* CTMediator+SegmentViewHud.m in Sources */,
 			);
@@ -527,8 +546,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
