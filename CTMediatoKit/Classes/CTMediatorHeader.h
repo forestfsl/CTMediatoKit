@@ -13,4 +13,5 @@
 #import "CTMediaAFNetworkReachbilityManager.h"
 #import "CTMediator+Config.h"
 #import "CTMediator+SegmentViewHud.h"
+#import "CTMediator+RequestAPI.h"
 #endif /* CTMediatorHeader_h */
